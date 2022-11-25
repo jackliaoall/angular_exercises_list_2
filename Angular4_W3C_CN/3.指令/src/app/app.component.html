@@ -1,0 +1,38 @@
+<!-- <h2>Hello, Angular</h2>
+<h2 [greet]="'Hello, Semlinker!'"
+    author="semlinker"
+>Hello, Angular</h2> -->
+
+<!-- <ng-template #tpl>
+  Hello, Semlinker!
+</ng-template> -->
+
+<!-- <ng-template #stpl>
+  Hello, Semlinker!
+</ng-template>
+<ng-template #atpl>
+  Hello, Angular!
+</ng-template>
+<div [ngTemplateOutlet]="atpl"></div>
+<div [ngTemplateOutlet]="stpl"></div> -->
+
+<!-- <ng-template #stpl let-message="message">
+  <p>{{message}}</p>
+</ng-template>
+<ng-template #atpl let-msg="message">
+  <p>{{msg}}</p>
+</ng-template>
+<ng-template #otpl let-msg>
+  <p>{{msg}}</p>
+</ng-template>
+<div [ngTemplateOutlet]="atpl"
+  [ngOutletContext]="context">
+</div>
+<div [ngTemplateOutlet]="stpl"
+  [ngOutletContext]="context">
+</div>
+<div [ngTemplateOutlet]="otpl"
+  [ngOutletContext]="context">
+</div> -->
+
+<h2 *exeUnless="condition">Hello, Semlinker!</h2>
